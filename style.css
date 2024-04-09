@@ -1,0 +1,201 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Arial', sans-serif;
+    background-image: url(BackgroundImageForWB.jpg);
+    color: #333;
+    line-height: 1.6;
+}
+
+header nav ul {
+    list-style: none;
+    background: #333;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+}
+
+section#home {
+    background: #eee;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    color: white;
+    text-shadow: 2px 2px 8px #000;
+}
+#Slogan {
+    color: white;
+    text-shadow: 2px 2px 8px #000;
+    text-align: center;
+}
+.image {
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.figcolor {
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-shadow: 2px 2px 8px #000;
+}
+ul, li {
+    color: white;
+    text-shadow: 2px 2px 8px #000;
+}
+h1, h2, h3 {
+    color: black;
+    text-shadow: 2px 2px 8px #ffffff;
+}
+p {
+    color: black;
+    text-shadow: 2px 2px 8px #ffffff;
+}
+.moon {
+    text-align: center;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+#portfolio {
+    color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.portfolio-item {
+    margin-bottom: 2rem;
+}
+
+.portfolio-item h3 {
+    color: #21F8F6; /* Neon yellow for headers */
+    text-shadow: 2px 2px 8px #000;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.map {
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+#txt {
+    color: #21F8F6; /* Neon yellow for headers */
+    text-shadow: 2px 2px 8px #000;
+}
+/* Contact Section and Profile Card */
+#contact {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    text-align: center;
+}
+
+.profile-card {
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    width: fit-content;
+    display: inline-block;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-form input, .contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .profile-card, .contact-form {
+        width: auto;
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
